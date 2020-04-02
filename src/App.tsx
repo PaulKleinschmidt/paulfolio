@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Me } from './Me/Me';
+import { Divider } from './Me/styles';
+import { Work } from './Work/Work';
+import { Projects } from './Projects/Projects';
+import { SectionWrapper } from './Shared/Styles';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SectionWrapper width="45%">
+        <Me/>
+      </SectionWrapper>
+      <Divider/>
+      <SectionWrapper width="55%">
+        <Work/>
+        <Projects/>
+      </SectionWrapper>
     </div>
   );
 }
