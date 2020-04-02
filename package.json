@@ -2,7 +2,7 @@
   "name": "paulfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PaulKleinschmidt.github.io/paulfolio",
+  "homepage": "https://paulkleinschmidt.github.io/paulfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
