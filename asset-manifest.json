@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/paulfolio/static/css/main.1a89167a.chunk.css",
+    "main.js": "/paulfolio/static/js/main.0c1c513b.chunk.js",
+    "main.js.map": "/paulfolio/static/js/main.0c1c513b.chunk.js.map",
+    "runtime-main.js": "/paulfolio/static/js/runtime-main.086d0b87.js",
+    "runtime-main.js.map": "/paulfolio/static/js/runtime-main.086d0b87.js.map",
+    "static/js/2.a30a1fed.chunk.js": "/paulfolio/static/js/2.a30a1fed.chunk.js",
+    "static/js/2.a30a1fed.chunk.js.map": "/paulfolio/static/js/2.a30a1fed.chunk.js.map",
+    "index.html": "/paulfolio/index.html",
+    "precache-manifest.e0a28292daa992deffbac109807e3ce8.js": "/paulfolio/precache-manifest.e0a28292daa992deffbac109807e3ce8.js",
+    "service-worker.js": "/paulfolio/service-worker.js",
+    "static/css/main.1a89167a.chunk.css.map": "/paulfolio/static/css/main.1a89167a.chunk.css.map",
+    "static/js/2.a30a1fed.chunk.js.LICENSE.txt": "/paulfolio/static/js/2.a30a1fed.chunk.js.LICENSE.txt",
+    "static/media/chicken.png": "/paulfolio/static/media/chicken.3ba09168.png",
+    "static/media/sqnce.gif": "/paulfolio/static/media/sqnce.782af66e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.086d0b87.js",
+    "static/js/2.a30a1fed.chunk.js",
+    "static/css/main.1a89167a.chunk.css",
+    "static/js/main.0c1c513b.chunk.js"
+  ]
+}
