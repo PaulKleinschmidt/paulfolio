@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/paulfolio/static/css/main.1a89167a.chunk.css",
-    "main.js": "/paulfolio/static/js/main.0c1c513b.chunk.js",
-    "main.js.map": "/paulfolio/static/js/main.0c1c513b.chunk.js.map",
-    "runtime-main.js": "/paulfolio/static/js/runtime-main.086d0b87.js",
-    "runtime-main.js.map": "/paulfolio/static/js/runtime-main.086d0b87.js.map",
-    "static/js/2.a30a1fed.chunk.js": "/paulfolio/static/js/2.a30a1fed.chunk.js",
-    "static/js/2.a30a1fed.chunk.js.map": "/paulfolio/static/js/2.a30a1fed.chunk.js.map",
-    "index.html": "/paulfolio/index.html",
-    "precache-manifest.e0a28292daa992deffbac109807e3ce8.js": "/paulfolio/precache-manifest.e0a28292daa992deffbac109807e3ce8.js",
-    "service-worker.js": "/paulfolio/service-worker.js",
-    "static/css/main.1a89167a.chunk.css.map": "/paulfolio/static/css/main.1a89167a.chunk.css.map",
-    "static/js/2.a30a1fed.chunk.js.LICENSE.txt": "/paulfolio/static/js/2.a30a1fed.chunk.js.LICENSE.txt",
-    "static/media/chicken.png": "/paulfolio/static/media/chicken.3ba09168.png",
-    "static/media/sqnce.gif": "/paulfolio/static/media/sqnce.782af66e.gif"
+    "main.css": "/www.paulkleinschmidt.me/static/css/main.1a89167a.chunk.css",
+    "main.js": "/www.paulkleinschmidt.me/static/js/main.16749986.chunk.js",
+    "main.js.map": "/www.paulkleinschmidt.me/static/js/main.16749986.chunk.js.map",
+    "runtime-main.js": "/www.paulkleinschmidt.me/static/js/runtime-main.3a59417a.js",
+    "runtime-main.js.map": "/www.paulkleinschmidt.me/static/js/runtime-main.3a59417a.js.map",
+    "static/js/2.0e5c516d.chunk.js": "/www.paulkleinschmidt.me/static/js/2.0e5c516d.chunk.js",
+    "static/js/2.0e5c516d.chunk.js.map": "/www.paulkleinschmidt.me/static/js/2.0e5c516d.chunk.js.map",
+    "index.html": "/www.paulkleinschmidt.me/index.html",
+    "precache-manifest.f232bd495a2706c938a345287f1eaa90.js": "/www.paulkleinschmidt.me/precache-manifest.f232bd495a2706c938a345287f1eaa90.js",
+    "service-worker.js": "/www.paulkleinschmidt.me/service-worker.js",
+    "static/css/main.1a89167a.chunk.css.map": "/www.paulkleinschmidt.me/static/css/main.1a89167a.chunk.css.map",
+    "static/js/2.0e5c516d.chunk.js.LICENSE.txt": "/www.paulkleinschmidt.me/static/js/2.0e5c516d.chunk.js.LICENSE.txt",
+    "static/media/chicken.png": "/www.paulkleinschmidt.me/static/media/chicken.3ba09168.png",
+    "static/media/sqnce.gif": "/www.paulkleinschmidt.me/static/media/sqnce.782af66e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.086d0b87.js",
-    "static/js/2.a30a1fed.chunk.js",
+    "static/js/runtime-main.3a59417a.js",
+    "static/js/2.0e5c516d.chunk.js",
     "static/css/main.1a89167a.chunk.css",
-    "static/js/main.0c1c513b.chunk.js"
+    "static/js/main.16749986.chunk.js"
   ]
 }
