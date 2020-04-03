@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/www.paulkleinschmidt.me/static/css/main.1a89167a.chunk.css",
-    "main.js": "/www.paulkleinschmidt.me/static/js/main.16749986.chunk.js",
-    "main.js.map": "/www.paulkleinschmidt.me/static/js/main.16749986.chunk.js.map",
-    "runtime-main.js": "/www.paulkleinschmidt.me/static/js/runtime-main.3a59417a.js",
-    "runtime-main.js.map": "/www.paulkleinschmidt.me/static/js/runtime-main.3a59417a.js.map",
-    "static/js/2.0e5c516d.chunk.js": "/www.paulkleinschmidt.me/static/js/2.0e5c516d.chunk.js",
-    "static/js/2.0e5c516d.chunk.js.map": "/www.paulkleinschmidt.me/static/js/2.0e5c516d.chunk.js.map",
-    "index.html": "/www.paulkleinschmidt.me/index.html",
-    "precache-manifest.f232bd495a2706c938a345287f1eaa90.js": "/www.paulkleinschmidt.me/precache-manifest.f232bd495a2706c938a345287f1eaa90.js",
-    "service-worker.js": "/www.paulkleinschmidt.me/service-worker.js",
-    "static/css/main.1a89167a.chunk.css.map": "/www.paulkleinschmidt.me/static/css/main.1a89167a.chunk.css.map",
-    "static/js/2.0e5c516d.chunk.js.LICENSE.txt": "/www.paulkleinschmidt.me/static/js/2.0e5c516d.chunk.js.LICENSE.txt",
-    "static/media/chicken.png": "/www.paulkleinschmidt.me/static/media/chicken.3ba09168.png",
-    "static/media/sqnce.gif": "/www.paulkleinschmidt.me/static/media/sqnce.782af66e.gif"
+    "main.css": "/static/css/main.1a89167a.chunk.css",
+    "main.js": "/static/js/main.c8d18143.chunk.js",
+    "main.js.map": "/static/js/main.c8d18143.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2558b9be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2558b9be.js.map",
+    "static/js/2.2c76b389.chunk.js": "/static/js/2.2c76b389.chunk.js",
+    "static/js/2.2c76b389.chunk.js.map": "/static/js/2.2c76b389.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1d30d1e97d52e0567fcee2673fb132a8.js": "/precache-manifest.1d30d1e97d52e0567fcee2673fb132a8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1a89167a.chunk.css.map": "/static/css/main.1a89167a.chunk.css.map",
+    "static/js/2.2c76b389.chunk.js.LICENSE.txt": "/static/js/2.2c76b389.chunk.js.LICENSE.txt",
+    "static/media/chicken.png": "/static/media/chicken.3ba09168.png",
+    "static/media/sqnce.gif": "/static/media/sqnce.782af66e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a59417a.js",
-    "static/js/2.0e5c516d.chunk.js",
+    "static/js/runtime-main.2558b9be.js",
+    "static/js/2.2c76b389.chunk.js",
     "static/css/main.1a89167a.chunk.css",
-    "static/js/main.16749986.chunk.js"
+    "static/js/main.c8d18143.chunk.js"
   ]
 }
