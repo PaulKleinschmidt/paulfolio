@@ -1,8 +1,9 @@
 import React from 'react';
-import { Section, Box, Link } from '../Shared/Styles';
+import { Section, Box } from '../Shared/Styles';
 import { Header, ProjectName, ProjectDescription, ProjectImage, IconLink } from './styles';
 import sqnce from '../sqnce.gif';
 import chicken from '../chicken.png';
+import baba from '../baba.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -19,6 +20,13 @@ const projects = [
     description: "Stardew Scrape is a command line tool that allows you to do quick lookups of Stardew Valley character gift reactions. This was my first project utilizing web scraping and the Beautiful Soup Python library.",
     github: "https://github.com/PaulKleinschmidt/stardew-scrape",
     imgSrc: chicken
+  },
+  {
+    name: "babaBlog",
+    description: "babaBlog is a simple blog made with Ruby on Rails and Ember.js. The app was deployed with Heroku. This project was made during my time at General Assembly's Web Development Immersive coding bootcamp. Create a post or write a comment!",
+    github: "https://github.com/PaulKleinschmidt/babablog-api",
+    deployedSite: "https://paulkleinschmidt.github.io/babablog/#/posts/2",
+    imgSrc: baba,
   },
 ]
 
