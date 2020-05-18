@@ -12,8 +12,8 @@ export const Me = () => {
       <MyName>PAUL KLEINSCHMIDT</MyName>
       <MyJob>Software Engineer</MyJob>
       <About>
-      <Hi>Hi</Hi>
-        Welcome to my website! I'm software engineer a depth of experience creating user experiences. I write code with a focus on usability, scalability, and quality. In my free time, I enjoy creating electronic music and learning jazz songs on guitar. I am always interested in side projects and collaborations. Feel free to reach out if you would like to talk about code and/or music.
+      <Hi>Hello</Hi>
+        Welcome to my website! I'm a software engineer that enjoys creating unique and engaging user experiences. I write code with a focus on usability, scalability, and quality. In my free time, I enjoy creating electronic music and learning jazz songs on guitar. I am always interested in side projects and collaborations. Feel free to reach out if you would like to talk about code and/or music.
       </About>
       <Icons>
       <IconLink color="white" href="https://www.linkedin.com/in/paul-k/">
