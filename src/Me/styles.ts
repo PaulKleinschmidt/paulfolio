@@ -51,7 +51,7 @@ export const Hi = styled.div`
 export const Icons = styled.div`
   cursor: pointer;
   margin-top: 40px;
-  width: 150px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
 

@@ -43,7 +43,7 @@ export const IconLink = styled.a<{spacingRight?: string;}>`
   cursor: pointer;
   text-decoration: none;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   transition: all .1s ease-in-out;
 
