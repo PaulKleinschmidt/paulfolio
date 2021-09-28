@@ -15,29 +15,23 @@ const projects = [
     deployedSite: "https://paulkleinschmidt.github.io/react-beat-sequencer/",
     imgSrc: sqnce
   },
-  {
-    name: "Stardew Scrape",
-    description: "Stardew Scrape is a command line tool that allows you to do quick lookups of Stardew Valley character gift reactions. This was my first project utilizing web scraping and the Beautiful Soup Python library.",
-    github: "https://github.com/PaulKleinschmidt/stardew-scrape",
-    imgSrc: chicken
-  },
-  {
-    name: "babaBlog",
-    description: "babaBlog is a simple blog made with Ruby on Rails and Ember.js. The app was deployed with Heroku. This project was made during my time at General Assembly's Web Development Immersive coding bootcamp. Create a post or write a comment!",
-    github: "https://github.com/PaulKleinschmidt/babablog-api",
-    deployedSite: "https://paulkleinschmidt.github.io/babablog/#/posts/2",
-    imgSrc: baba,
-  },
+  // {
+  //   name: "babaBlog",
+  //   description: "babaBlog is a simple blog made with Ruby on Rails and Ember.js. The app was deployed with Heroku. This project was made during my time at General Assembly's Web Development Immersive coding bootcamp. Create a post or write a comment!",
+  //   github: "https://github.com/PaulKleinschmidt/babablog-api",
+  //   deployedSite: "https://paulkleinschmidt.github.io/babablog/#/posts/2",
+  //   imgSrc: baba,
+  // },
 ]
 
 export const Projects = () => {
   return (
-    <Section >
+    <Section>
       <Header>
-        PROJECTS
+        SIDE PROJECTS
       </Header>
       {projects.map(project => (
-        <Box color="#34c749" key={project.name}>
+        <Box color="#ffa500" key={project.name}>
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <div style={{width: "70%"}}>
               <ProjectName>
@@ -48,12 +42,12 @@ export const Projects = () => {
             {project.imgSrc && <ProjectImage src={project.imgSrc} />}
           </div>
           <IconLink spacingRight="20px" color="#34c749" href={project.github}>
-            <FontAwesomeIcon size="lg" icon={faCode} />
+            <FontAwesomeIcon size="sm" icon={faCode} />
           </IconLink>
 
           {project.deployedSite && (
-            <IconLink color="#34c749" href={project.deployedSite}>
-              <FontAwesomeIcon size="lg" icon={faExternalLinkAlt} />
+            <IconLink color="#ffa500" href={project.deployedSite}>
+              <FontAwesomeIcon size="sm" icon={faExternalLinkAlt} />
             </IconLink>
           )}
         </Box>

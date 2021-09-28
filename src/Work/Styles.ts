@@ -7,7 +7,7 @@ export const Header = styled.div`
   margin: auto;
   text-align: left;
   margin-bottom: 40px;
-  color: #ffa500;
+  color: #363030;
 `
 
 export const JobHeader = styled.div`
@@ -18,6 +18,7 @@ export const JobHeader = styled.div`
 
 export const JobName = styled.div`
   font-size: 20px;
+  color: #363030;
 `
 
 export const JobTimeline = styled.div`
@@ -31,5 +32,9 @@ export const Position = styled.div`
 
 export const Tech = styled.div`
   font-size: 20px;
+`
+
+export const JobDescription = styled.div`
+  margin-top: 30px;
 `
 

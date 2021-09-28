@@ -7,7 +7,7 @@ export const Header = styled.div`
   margin: auto;
   text-align: left;
   margin-bottom: 40px;
-  color: #34c749;
+  color: #363030;
 `
 
 export const ProjectName = styled.div`
@@ -22,13 +22,9 @@ export const ProjectDescription = styled.div`
   a {
     transition: all .1s ease-in-out;
     text-decoration: none;
-    color: white;
+    color: #363030;
     font-weight: bold;
-    border-bottom: 2px solid white;
-    &:hover {
-      color: #34c749;
-      border-color: #34c749;
-    }
+    border-bottom: 2px solid #363030;
   }
 `
 
@@ -42,7 +38,7 @@ export const IconLink = styled.a<{spacingRight?: string;}>`
   ${props => props.spacingRight && `margin-right: ${props.spacingRight};`}
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: #363030;
   font-size: 18px;
   font-weight: bold;
   transition: all .1s ease-in-out;

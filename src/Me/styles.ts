@@ -19,13 +19,13 @@ export const Divider = styled.div`
 `
 
 export const MyName = styled.div`
+  text-align: left;
   font-family: 'Questrial', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  margin: auto;
-  text-align: left;
+  margin-top: 30vh;
   margin-bottom: 4px;
-  color: #328de3;
+  color: #363030;
 `
 
 export const MyJob = styled.div`
@@ -37,10 +37,10 @@ export const MyJob = styled.div`
 `
 
 export const About = styled.div`
-  margin-top: 40px;
+  margin-top: 150px;
   font-size: 20px;
   text-align: left;
-  line-height: 1.5;
+  line-height: 2;
 `
 
 export const Hi = styled.div`
@@ -54,12 +54,14 @@ export const Icons = styled.div`
   width: 200px;
   display: flex;
   justify-content: space-between;
+  margin: 40px 0 0;
+  color: #363030;
 
   svg {
     transition: all .1s ease-in-out;
 
     &:hover {
-      color: #328de3;
+      color: #ffa500;
     }
   }
 `
