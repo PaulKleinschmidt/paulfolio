@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../theme";
 
 export const Header = styled.div`
   font-family: 'Questrial', sans-serif;
@@ -7,7 +8,7 @@ export const Header = styled.div`
   margin: auto;
   text-align: left;
   margin-bottom: 40px;
-  color: #363030;
+  color: ${colors.black};
 `
 
 export const ProjectName = styled.div`
@@ -22,9 +23,9 @@ export const ProjectDescription = styled.div`
   a {
     transition: all .1s ease-in-out;
     text-decoration: none;
-    color: #363030;
+    color: ${colors.black};
     font-weight: bold;
-    border-bottom: 2px solid #363030;
+    border-bottom: 2px solid ${colors.black};
   }
 `
 
@@ -38,7 +39,7 @@ export const IconLink = styled.a<{spacingRight?: string;}>`
   ${props => props.spacingRight && `margin-right: ${props.spacingRight};`}
   cursor: pointer;
   text-decoration: none;
-  color: #363030;
+  color: ${colors.black};
   font-size: 18px;
   font-weight: bold;
   transition: all .1s ease-in-out;

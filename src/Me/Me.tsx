@@ -5,6 +5,7 @@ import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
 import { Section } from '../Shared/Styles';
 import { IconLink } from '../Projects/styles';
+import { colors } from '../theme';
 
 export const Me = () => {
   return (
@@ -12,19 +13,19 @@ export const Me = () => {
       <MyName>PAUL KLEINSCHMIDT</MyName>
       <MyJob>Software Engineer</MyJob>
       <Icons>
-        <IconLink color="#363030" href="https://www.linkedin.com/in/paul-k/">
+        <IconLink color={colors.black} href="https://www.linkedin.com/in/paul-k/">
           <FontAwesomeIcon size="lg" icon={faLinkedinIn} />
         </IconLink>
-        <IconLink color="#363030" href="https://www.github.com/paulkleinschmidt/">
+        <IconLink color={colors.black} href="https://www.github.com/paulkleinschmidt/">
           <FontAwesomeIcon size="lg" icon={faGithub} />
         </IconLink>
-        <IconLink color="#363030" href="https://codepen.io/tall_paul">
+        <IconLink color={colors.black} href="https://codepen.io/tall_paul">
           <FontAwesomeIcon size="lg" icon={faCodepen} />
         </IconLink>
-        <IconLink color="#363030" href="mailto:paul.kleinschmidt96@gmail.com">
+        <IconLink color={colors.black} href="mailto:paul.kleinschmidt96@gmail.com">
           <FontAwesomeIcon size="lg" icon={faEnvelope} />
         </IconLink>
-        <IconLink color="#363030" href="https://drive.google.com/file/d/1ujqcKvE0t3zKGssGrMpEI_Z9_UfBoQSs/view?usp=sharing">
+        <IconLink color={colors.black} href="https://drive.google.com/file/d/1ujqcKvE0t3zKGssGrMpEI_Z9_UfBoQSs/view?usp=sharing">
           <FontAwesomeIcon size="lg" icon={faFileAlt} />
         </IconLink>
       </Icons>

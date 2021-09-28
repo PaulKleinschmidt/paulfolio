@@ -1,6 +1,7 @@
 
 
 import styled from 'styled-components';
+import { colors } from '../theme';
 
 
 export const Header = styled.div`
@@ -25,7 +26,7 @@ export const MyName = styled.div`
   font-weight: 700;
   margin-top: 30vh;
   margin-bottom: 4px;
-  color: #363030;
+  color: ${colors.black};
 `
 
 export const MyJob = styled.div`
@@ -55,13 +56,13 @@ export const Icons = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 40px 0 0;
-  color: #363030;
+  color: ${colors.black};
 
   svg {
     transition: all .1s ease-in-out;
 
     &:hover {
-      color: #ffa500;
+      color: ${colors.orange};
     }
   }
 `

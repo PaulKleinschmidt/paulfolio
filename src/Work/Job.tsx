@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Box, Link } from '../Shared/Styles';
+import { colors } from '../theme';
 import {
   JobName,
   JobTimeline,
   JobHeader,
   Tech,
-  Position,
-  JobDescription
+  Position
 } from './Styles';
 import { TJob } from './types';
 
@@ -24,13 +24,13 @@ export const Job = ({ job }: Props) => {
   return (
     <Box
       className={isExpanded ? 'expanded' : ''}
-      color="#ffa500"
+      color={colors.orange}
       key={job.name}
       onClick={expand}
     >
       <JobHeader>
         <JobName>
-          <Link href={job.link} color="#ffa500">
+          <Link href={job.link} color={colors.orange}>
             {job.name}
           </Link>
         </JobName>

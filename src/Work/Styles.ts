@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from "../theme";
 
 export const Header = styled.div`
   font-family: 'Questrial', sans-serif;
@@ -7,7 +8,7 @@ export const Header = styled.div`
   margin: auto;
   text-align: left;
   margin-bottom: 40px;
-  color: #363030;
+  color: ${colors.black};
 `
 
 export const JobHeader = styled.div`
@@ -18,7 +19,7 @@ export const JobHeader = styled.div`
 
 export const JobName = styled.div`
   font-size: 20px;
-  color: #363030;
+  color: ${colors.black};
 `
 
 export const JobTimeline = styled.div`

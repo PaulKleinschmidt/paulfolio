@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from '../theme';
 
 export const SectionWrapper = styled.div<{ width?: string }>`
   ${(props) => `width: ${props.width || '100%'};`}
@@ -35,8 +36,8 @@ export const Link = styled.a`
   cursor: pointer;
   margin-right: 20px;
   text-decoration: none;
-  color: #363030;
-  border-bottom: 2px solid #363030;
+  color: ${colors.black};
+  border-bottom: 2px solid ${colors.black};
   font-size: 20px;
   font-weight: bold;
   transition: all 0.1s ease-in-out;
