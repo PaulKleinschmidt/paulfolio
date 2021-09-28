@@ -11,7 +11,7 @@ function App() {
       <SectionWrapper>
         <Me/>
         <Work/>
-        <Projects/>
+        {/* <Projects/> */}
       </SectionWrapper>
     </div>
   );

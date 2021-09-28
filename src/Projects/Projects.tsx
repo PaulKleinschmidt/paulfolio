@@ -26,9 +26,6 @@ export const Projects = () => {
         <Box color={colors.orange} key={project.name}>
           <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <div style={{width: "70%"}}>
-              <ProjectName>
-                {project.name}
-              </ProjectName>
               <ProjectDescription dangerouslySetInnerHTML={{ __html: project.description }}/>
             </div>
             {project.imgSrc && <ProjectImage src={project.imgSrc} />}

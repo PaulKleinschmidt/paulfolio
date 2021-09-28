@@ -31,7 +31,7 @@ export const Me = () => {
       </Icons>
 
       <About>
-        Welcome to my website! I'm a software engineer that enjoys creating unique and engaging user experiences. I have been working mostly with React, Typescript, and Serverless, but I love learning new technologies. For example, I recently have been learning about functional programming. <br/><br/>
+        Welcome to my website! I'm a software engineer that enjoys creating unique and engaging user experiences. Lately I have been working mostly with React, Typescript, and Serverless, but I love learning new technologies. For example, I recently have been learning about functional programming. <br/><br/>
         I'm currently building embeddable widgets, dashboards, and tracking systems at Full Beaker. Before that, I worked as a full stack engineer at a health tech startup. <br/><br/>
         In my free time, I enjoy creating electronic music and playing jazz guitar. I am always interested in side projects and collaborations. Feel free to reach out if you would like to talk about code and/or music.
       </About>
